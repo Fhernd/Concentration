@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
          * @description Validates if the user has won.
          */
         hasWon() {
-            if (this.matches == 1) {
+            if (this.matches == 8) {
                 clearInterval(this.timer);
                 Swal.fire({
                     title: "You've won!",
